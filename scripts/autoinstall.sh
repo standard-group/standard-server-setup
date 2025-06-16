@@ -3,15 +3,15 @@
 echo "Starting Nginx VPS setup..."
 
 # update system packages
-echo -e "\n--- Updating system packages ---"
-sudo apt update -y
-sudo apt upgrade -y
+# echo -e "\n--- Updating system packages ---"
+# sudo apt update -y
+# sudo apt upgrade -y
 
 # check if apt update/upgrade was successful
-if [ $? -ne 0 ]; then
-    echo "Error: Failed to update or upgrade system packages. Exiting."
-    exit 1
-fi
+# if [ $? -ne 0 ]; then
+#    echo "Error: Failed to update or upgrade system packages. Exiting."
+#    exit 1
+# fi
 
 # install nginx
 echo -e "\n--- Installing Nginx ---"
